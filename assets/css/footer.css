@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.big-text {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.small-text {
+  color: white;
+  font-size: 18px;
+}
+
+.small-text:hover {
+  cursor: pointer;
+}
+
+.payment {
+  margin-left: 30px;
+}
+
+.payment-small-text {
+  color: white;
+  font-size: 18px;
+}
+
+.payment-button {
+  width: 100px;
+  height: 35px;
+  background-color: #303030;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.payment-button:hover {
+  background-color: #535353;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socialimg {
+  width: 40px;
+  height: auto;
+}
+
+.socialimg:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.about {
+  margin-right: 30px;
+}
+
+.pagelink {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.pagelink:hover {
+  border-color: white;
+  opacity: 1;
+}
+
+.bottom-info {
+  color: white;
+  font-size: 14px;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

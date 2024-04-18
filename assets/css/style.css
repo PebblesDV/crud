@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Questrial", sans-serif;
+}
+
+body {
+  background-color: #101010;
+}
+
+.product-link {
+  text-decoration: none;
+}
+
+.no-products {
+  display: block;
+  margin: auto;
+  color: white;
+  font: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 15px; /*width of the scrollbar*/
+}
+
+::-webkit-scrollbar-track {
+  background: #303030; /*color of the whole scrollbar*/
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray; /*color of the part that you scroll with*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(
+    187,
+    187,
+    187
+  ); /*color of the part that you scroll with when hovering over it*/
+}
+
+/*takes away arrows in number input field*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

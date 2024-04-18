@@ -1,0 +1,169 @@
+.page-link {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.link-full-text {
+  display: flex;
+  flex-direction: row; /*puts everything next to eachother horizontally*/
+  align-items: center; /*centers everything*/
+  margin-left: 30px;
+}
+
+.link-full-text:hover {
+  cursor: pointer; /*makes your cursor a pointer when hovering on the item*/
+}
+
+.page-link-text {
+  color: white;
+  font-size: 12px;
+}
+
+.page-link-img {
+  width: 12px;
+  height: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sidebar-and-products {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  border: 1px solid white;
+  width: 280px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column; /*puts everything underneath eachother*/
+}
+
+.box-name {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.buttons-form {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.button-text {
+  color: white;
+}
+
+.typebuttons {
+  accent-color: black;
+}
+
+.typebuttons:hover {
+  cursor: pointer;
+}
+
+.colors-form {
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.colorbuttons:hover {
+  cursor: pointer;
+}
+
+.redbutton {
+  accent-color: red; /*accent color changes the color of the button when its clicked*/
+}
+
+.lbluebutton {
+  accent-color: rgb(98, 140, 255);
+}
+
+.pinkbutton {
+  accent-color: rgb(255, 36, 237);
+}
+
+.blackbutton {
+  accent-color: black;
+}
+
+.whitebutton {
+  accent-color: rgb(134, 134, 134);
+}
+
+.dbluebutton {
+  accent-color: rgb(1, 1, 211);
+}
+
+.orangebutton {
+  accent-color: rgb(190, 127, 10);
+}
+
+.priceslider {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  accent-color: #535353;
+}
+
+.priceslider:hover {
+  cursor: pointer;
+}
+
+.prices {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /*puts all of the space between the items*/
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lowestprice {
+  margin-left: 20px;
+}
+
+.highestprice {
+  margin-right: 20px;
+}
+
+.news-mail {
+  background-color: #101010;
+  border: 1px solid white;
+  color: white;
+  padding-left: 5px;
+  resize: none; /*stops the text field from being able to be resized*/
+  width: 235px;
+  height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.signup-button {
+  width: 80px;
+  height: 25px;
+  background-color: white;
+  border: none;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  transition: 0.2s; /*makes the transition of the color when you hover 0.2 seconds instead of instant*/
+}
+
+.signup-button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}

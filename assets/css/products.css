@@ -1,0 +1,98 @@
+.product-layout {
+  width: 100%;
+  margin-left: 70px;
+  margin-right: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.products-sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.sort-text-products {
+  color: white;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sorting {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.sort-text {
+  color: white;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.sorting-form {
+  background-color: #101010;
+  border: 1px solid white;
+  color: white;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.sorting-form:hover {
+  cursor: pointer;
+}
+
+.items-text {
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.items-top {
+  margin-bottom: 25px;
+}
+
+.block {
+  display: block;
+}
+
+.block:hover {
+  cursor: pointer;
+}
+
+.product-card {
+  height: auto;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.product-card:hover {
+  cursor: pointer;
+  scale: 1.02; /*makes the card .02 bigger than it usually is when hovering on it*/
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover; /*scales the image that is used*/
+  margin-bottom: 12px;
+  aspect-ratio: 1;
+}
+
+.items-bottom {
+  margin-bottom: 25px;
+}
